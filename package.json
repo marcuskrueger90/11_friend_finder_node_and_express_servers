@@ -1,0 +1,20 @@
+{
+  "name": "friend_finder",
+  "version": "1.0.0",
+  "description": "Fill out a survey and find out who is a best match for you",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcuskrueger90/11_friend_finder_node_and_express_servers.git"
+  },
+  "author": "Marcus Krueger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcuskrueger90/11_friend_finder_node_and_express_servers/issues"
+  },
+  "homepage": "https://github.com/marcuskrueger90/11_friend_finder_node_and_express_servers#readme"
+}
