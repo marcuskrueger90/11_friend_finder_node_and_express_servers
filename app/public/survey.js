@@ -14,7 +14,7 @@ var config = {
     }
 };
 
-$('#submit').on('click', function (event) {
+$(document).on("click", "submit", function (event) {
     event.preventDefault();
 
     var userInput = {
