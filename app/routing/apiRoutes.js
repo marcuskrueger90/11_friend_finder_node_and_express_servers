@@ -31,10 +31,10 @@ module.exports = (app) => {
 
     });
 
-    // app.post('/api/clear', (req, res) => {
-    //     peopleInfo.length = [];
-    //     res.json({
-    //         ok: true
-    //     })
-    // })
+    app.post('/api/clear', (req, res) => {
+        peopleInfo.length = [];
+        res.json({
+            ok: true
+        })
+    })
 }
